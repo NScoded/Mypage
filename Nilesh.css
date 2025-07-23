@@ -1,0 +1,137 @@
+.main1{
+    padding: 0px;
+    
+
+
+    
+}
+
+body{
+    background-image: linear-gradient(to bottom,rgb(71, 70, 70),rgb(145, 216, 232));
+    height: auto;
+    padding: 2%;
+        background-attachment: fixed;
+    background-size: cover;
+
+}
+
+html{
+    height: 100%;
+}
+.block{
+    margin: 0%;
+    padding-top: 0px;
+    border-radius: 10px;
+    background-color: rgb(38, 37, 37);
+    height: auto;
+    box-shadow: 0px -1px 15px 5px  rgb(20, 22, 22);
+
+}
+
+.nav-links{
+            margin-right: 50px;
+            text-decoration: none;
+            color: black;
+            text-align: right;
+            float: right;
+            height: 80px;
+            line-height: 60px;
+            
+}
+div{
+            text-transform: capitalize;
+}
+  
+ 
+a{
+            color:aliceblue;
+            text-decoration: dashed;
+            padding: 25px;
+}
+.nav-links li a:hover {
+        background-color: #67918c; /* hover background */
+        color: rgba(250, 250, 250, 0.874);              /* hover text color */
+        transition: 0.3s;          /* smooth effect */
+        border-radius: 100px;
+}
+
+
+.hexagon {
+
+  text-align: right; 
+  width: 210px;
+  height: 250px;
+  background: #3B8686;
+  border-radius : 50% 50% 15% 15%;
+  box-shadow: 0px -1px 15px 5px  lightblue;
+  border-color:  black;
+  border-style: groove;
+  border-width: 5px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  
+}
+
+
+
+
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    color: aliceblue;
+    
+    
+    
+}
+p{
+    color: aliceblue;
+}
+#right{
+    background-color:rgb(128, 149, 155);
+    border-radius: 140px 140px 150px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.navbar-nav> .active>a{
+    color:rgb(128, 149, 155);
+    border-radius: 140px 140px 150px 150px;
+
+}
+
+.contact_block{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.skl-nav-links{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    list-style: none;
+            
+}
+.skl-nav-links a:hover {
+        background-color: #71a1b0; /* hover background */
+        color: yellow;              /* hover text color */
+        transition: 0.3s;          /* smooth effect */
+        border-radius: 100px;
+    
+}
+.mid{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.active-link {
+  background-color: #67918c;
+  color: yellow;
+  border-radius: 100px;
+}
